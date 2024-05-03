@@ -32,7 +32,7 @@
 
 #define DEBUG_AUDIOSTREAM 0
 
-#ifdef __ARM_NEON
+#if 0 // def  __ARM_NEON
 #define HAVE_NEON_INTRINSICS 1
 #endif
 

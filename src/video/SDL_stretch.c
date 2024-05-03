@@ -341,7 +341,7 @@ static int scale_mat(const Uint32 *src, int src_w, int src_h, int src_pitch,
 #define HAVE_SSE2_INTRINSICS
 #endif
 
-#if defined(__ARM_NEON)
+#if 0 // defined(__ARM_NEON)
 #define HAVE_NEON_INTRINSICS 1
 #define CAST_uint8x8_t       (uint8x8_t)
 #define CAST_uint32x2_t      (uint32x2_t)
