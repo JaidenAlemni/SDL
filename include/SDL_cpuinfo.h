@@ -76,7 +76,7 @@ _m_prefetch(void *__P)
 #if defined(HAVE_ALTIVEC_H) && defined(__ALTIVEC__) && !defined(__APPLE_ALTIVEC__) && defined(SDL_ENABLE_ALTIVEC_H)
 #include <altivec.h>
 #endif
-#if !defined(SDL_DISABLE_ARM_NEON_H)
+#if 0 //!defined(SDL_DISABLE_ARM_NEON_H)
 #  if defined(__ARM_NEON)
 #    include <arm_neon.h>
 #  elif defined(__WINDOWS__) || defined(__WINRT__) || defined(__GDK__)

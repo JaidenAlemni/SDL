@@ -24,7 +24,7 @@
 #include "SDL_audio_c.h"
 #include "SDL_cpuinfo.h"
 
-#ifdef __ARM_NEON
+#if 0 //def __ARM_NEON
 #define HAVE_NEON_INTRINSICS 1
 #endif
 
